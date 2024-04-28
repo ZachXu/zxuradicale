@@ -61,3 +61,11 @@ collection: {user}/[^/]+
 permissions: rw
 EOF
 ```
+## Step 5
+```bash
+wget https://raw.githubusercontent.com/ZachXu/zxuradicale/main/docker-compose.yml
+```
+## Step 6
+```bash
+docker-compose up -d
+```
