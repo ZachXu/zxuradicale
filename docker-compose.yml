@@ -1,0 +1,11 @@
+version: '3'
+services:
+   radicale:
+      image: radicale:3.1.6
+      ports:
+      - 5232:5232
+      restart: always
+      user: radicale
+      volumes:
+      - $HOME/radicale/etc:/etc/radicale
+      - $HOME/radicale/collections:/var/lib/radicale/collections
